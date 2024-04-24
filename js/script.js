@@ -134,7 +134,7 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc){
     //Agregamos la funcionalidad eliminar al nuevo item
      item.getElementsByClassName('btn-eliminar')[0].addEventListener('click', eliminarItemCarrito);
 
-    //Agregmos al funcionalidad restar cantidad del nuevo item
+    //Agregamos al funcionalidad restar cantidad del nuevo item
     var botonRestarCantidad = item.getElementsByClassName('restar-cantidad')[0];
     botonRestarCantidad.addEventListener('click',restarCantidad);
 
