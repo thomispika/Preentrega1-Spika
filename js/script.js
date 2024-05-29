@@ -16,7 +16,6 @@ for(let i=0;i<10;i++) {
     console.log(`Iteración n° ` + i);
 }
 
-
 //Variable que mantiene el estado visible del carrito
 let carritoVisible = false;
 
@@ -63,7 +62,9 @@ function ready(){
 //Eliminamos todos los elementos del carrito y lo ocultamos
 function pagarClicked(){
     alert("Gracias por la compra");
+    
     //Elimino todos los elmentos del carrito
+    
     let carritoItems = document.getElementsByClassName('carrito-items')[0];
     while (carritoItems.hasChildNodes()){
         carritoItems.removeChild(carritoItems.firstChild)
